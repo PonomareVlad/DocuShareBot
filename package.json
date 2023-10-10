@@ -1,5 +1,5 @@
 {
-  "name": "grammy-vercel-edge",
+  "name": "doc-share-bot",
   "author": "Vladislav Ponomarev <PonomareVlad@users.noreply.github.com> (https://PonomareVlad.ru)",
   "funding": "https://PonomareVlad.ru/donate",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "start": "node --watch -r dotenv/config scripts/start.mjs"
   },
   "dependencies": {
+    "@roziscoding/grammy-autoquote": "^1.1.2",
     "grammy": "^1.19.1",
     "vercel-grammy": "^0.2.1"
   },
